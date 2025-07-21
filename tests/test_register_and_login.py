@@ -20,7 +20,7 @@ def test_register_and_login_flow():
 
     try:
         #### --- REGISTRO --- ####
-        driver.get("http://localhost:5174/register")
+        driver.get("http://localhost:5173/register")
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'input[placeholder="Juan"]'))
         )
