@@ -1,0 +1,6 @@
+selenium
+requests
+matplotlib
+numpy
+openpyxl
+pytest
